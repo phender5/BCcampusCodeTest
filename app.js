@@ -8,7 +8,7 @@ var app = new Vue({
         {
           name: 'collection.bccampus.ca',
           on: true,
-          url : 'https://api.trello.com/1/members/me/boards?key=85694c230739c7d3d1ab1e3e60dd15e7&token=44f7e0ab2ed1f321fb527b0a2db693b88ad7f182e8d5d6ce6c9ca0de1eca2070',
+          url : 'https://collection.bccampus.ca/wp-json/wp/v2/oer?per_page=5&order=asc',
           posts : []
         }
       ]
