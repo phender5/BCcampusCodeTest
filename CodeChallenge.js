@@ -1,6 +1,3 @@
-import Vue from "vue";
-import moment from "moment";
-
 var app = new Vue({
   
     el : '#app',
