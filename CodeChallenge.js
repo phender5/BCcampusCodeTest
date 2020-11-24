@@ -1,6 +1,6 @@
 var app = new Vue({
   
-    el : '#CodeChallenge',
+    el : '#app',
     
     data : function(){
       return {
