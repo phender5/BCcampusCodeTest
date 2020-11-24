@@ -29,7 +29,7 @@ var app = new Vue({
         var date = moment.utc(value);
         
         // Return formatted date
-        return date.format("MMM DD, YYYY,");
+        return date.format("MMMM DD, YYYY,");
         
       }
       
