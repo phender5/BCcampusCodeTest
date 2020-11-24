@@ -1,16 +1,20 @@
 var app = new Vue({
   
-    el : '#app',
+    el : '#CodeChallenge',
     
     data : function(){
       return {
         sources : [
           {
             name: 'collection.bccampus.ca',
-            //name: 'staples.ca',
             on: true,
             url : 'https://collection.bccampus.ca/wp-json/wp/v2/oer?per_page=13&order=asc',
-            //url : 'https://staples.ca/wp-json/wp/v2/oer?per_page=5&order=asc',
+            posts : []
+          },
+          {
+            name: 'open.bccampus.ca',
+            on: true,
+            url : 'https://open.bccampus.ca/wp-json/wp/v2/posts?per_page=7&order=asc',
             posts : []
           }
         ]
